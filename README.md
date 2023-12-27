@@ -17,7 +17,7 @@ This site is hosted on Vercel, a cloud platform for static sites and Serverless 
 - [x] sitemap & rss feed
 - [x] followed best practices
 - [x] highly customizable
-- [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
+- [x] dynamic OG image generation for blog posts [Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/)
 
 _Note: I've (Charunthon) tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in Be Beyond Code should be working fine on others as well._
 
@@ -74,8 +74,6 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 - Add Posts - [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
 - Customize Color Schemes - [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
 - Predefined Color Schemes - [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
-
-> For AstroPaper v1, check out [this branch](https://github.com/satnaing/astro-paper/tree/astro-paper-v1) and this [live URL](https://astro-paper-v1.astro-paper.pages.dev/)
 
 ## 💻 Tech Stack
 
