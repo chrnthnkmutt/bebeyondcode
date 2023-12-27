@@ -1,16 +1,8 @@
-# AstroPaper 📄
+# Be Beyond Code Website 📄
 
-![AstroPaper](public/astropaper-og.jpg)
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![GitHub](https://img.shields.io/github/license/satnaing/astro-paper?color=%232F3741&style=for-the-badge)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
+Be Beyond Code is a blog website that is created by Charunthon Limseelo, among with tech contributors from Microsoft, Google, Thai Programmer Association, and much more. This website is created for the purpose of sharing knowledge and experience in the field of technology. We hope that this website will be a place for everyone to learn and grow together.
 
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
-
-This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
+This site is hosted on Vercel, a cloud platform for static sites and Serverless Functions. This site is also using Tailwind CSS, a utility-first CSS framework for rapidly building custom designs.
 
 ## 🔥 Features
 
@@ -27,7 +19,7 @@ This theme is self-documented \_ which means articles/posts in this theme can al
 - [x] highly customizable
 - [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
 
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
+_Note: I've (Charunthon) tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in Be Beyond Code should be working fine on others as well._
 
 ## ✅ Lighthouse Score
 
@@ -147,9 +139,7 @@ All commands are run from the root of the project, from a terminal:
 
 ## ✨ Feedback & Suggestions
 
-If you have any suggestions/feedback, you can contact me via [my email](mailto:contact@satnaing.dev). Alternatively, feel free to open an issue if you find bugs or want to request new features.
-
-## 📜 License
+If you have any suggestions/feedback, you can contact me via [my email](mailto:boat.charunthon@gmail.com). Alternatively, feel free to open an issue if you find bugs or want to request new features.
 
 Licensed under the MIT License, Copyright © 2023
 
