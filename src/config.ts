@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Charunthon Limseelo",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "Be Beyond Code. 🇹🇭</>",
-  ogImage: "bebeyondcode-og.jpg",
+  ogImage: "bebeyondcode-og.webp",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
