@@ -1,18 +1,39 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "About Us"
 ---
+**Be Beyond Code** is a blog website that is created by Charunthon Limseelo, among with tech contributors from Microsoft, Google, Thai Programmer Association, and much more. This website is created for the purpose of sharing knowledge and experience in the field of technology. We hope that this website will be a place for everyone to learn and grow together.
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
-
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+This site is **officailly launched on January 1st 2024**. This site is created using **Astro**, a static site builder for modern web apps. This site is hosted on Vercel, a cloud platform for static sites and Serverless Functions. This site is also using Tailwind CSS, a utility-first CSS framework for rapidly building custom designs.
 
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
+
+If you would like to contribute to this site, feel free to make a branch on our github repo and make a pull request. We will review your pull request as soon as possible. To add a new post, you can simply add a new markdown `.md` file in the `src/content/blog` directory.
+
+Please follow the following format for your markdown file.
+
+```markdown
+---
+author: // (Your Name)
+pubDatetime: // 2023-01-30T15:57:52.737Z (your time in ISO format)
+title: // (Title Name)
+postSlug: // (title-name)
+featured: // true/false (choose one)
+draft: // true/false (choose one)
+tags:
+  - (tag that in the scope of this post, make as a list)
+description: (description of the post)
+---
+
+// your markdown content here and you can use html tags as well, 
+don't forget to add the table of contents
+// by adding "## Table of contents" in the markdown file and it 
+will automatically generate the table of contents for you
+```
+
+## Table of contents
 
 ## Features
 
@@ -28,8 +49,7 @@ Here are certain features of this site.
 - sitemap & rss feed
 - highly customizable
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+If you like this theme, you can star/contribute to the [original repo from Astro](https://github.com/satnaing/astro-paper). Or you can even give any feedback about our blog site via my [email](mailto:boat.charunthon@gmail.com).
 
 ## List of Contributors
 
@@ -46,6 +66,14 @@ Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
  <div style="transform: translateY(50%);">
 
 [Sirisa Kornnawawat](https://www.linkedin.com/in/sirisa-kornnawawat-593914231/) - Co-founder of Be Beyond Code </br> **Google Developer Student Club, Vistula University**
+ </div>
+</div>
+
+<div style="text-align: left; position: relative; min-height: 120px;">
+ <img src="https://miro.medium.com/v2/resize:fit:2400/1*HoCCYO9u9cmeSEEC3W0Ahw.png" alt="Your Image Description" style="float: left; width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
+ <div style="transform: translateY(50%);">
+
+[Tinnaphat Somsang](https://tinarskii.com/) - Assistant to Founder of Be Beyond Code </br> **Assumption College Samutprakarn**
  </div>
 </div>
 
@@ -72,3 +100,7 @@ Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
 [Jirachai Chansivanon](https://www.linkedin.com/in/jirachai-c/) - Microsoft Contributor</br>**Co-Community Lead of Spark Tech Thailand, Microsoft Thailand**
  </div>
 </div>
+
+And much more contributors to come!
+
+[Back to the Top](#top)
