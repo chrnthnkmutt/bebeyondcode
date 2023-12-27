@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://bebeyondcode.vercel.app/", // replace this with your deployed domain
   author: "Charunthon Limseelo",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "Less Code, More Tech",
   title: "Be Beyond Code. 🇹🇭</>",
   ogImage: "bebeyondcode-og.webp",
   lightAndDarkMode: true,
