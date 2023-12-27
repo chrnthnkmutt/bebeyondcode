@@ -31,7 +31,7 @@ _Note: I've (Charunthon) tested screen-reader accessibility of AstroPaper using 
 
 ## 🚀 Project Structure
 
-Inside of AstroPaper, you'll see the following folders and files:
+Inside of Be Beyond Code, you'll see the following folders and files:
 
 ```bash
 /
