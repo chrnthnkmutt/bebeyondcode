@@ -22,6 +22,7 @@ title: // (Title Name)
 postSlug: // (title-name)
 featured: // true/false (choose one)
 draft: // true/false (choose one)
+ogImage: // (image url)
 tags:
   - (tag that in the scope of this post, make as a list)
 description: (description of the post)
