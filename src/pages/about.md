@@ -2,6 +2,7 @@
 layout: ../layouts/AboutLayout.astro
 title: "About Us"
 ---
+
 **Be Beyond Code** is a blog website that is created by Charunthon Limseelo, among with tech contributors from Microsoft, Google, Thai Programmer Association, and much more. This website is created for the purpose of sharing knowledge and experience in the field of technology. We hope that this website will be a place for everyone to learn and grow together.
 
 This site is **officailly launched on January 1st 2024**. This site is created using **Astro**, a static site builder for modern web apps. This site is hosted on Vercel, a cloud platform for static sites and Serverless Functions. This site is also using Tailwind CSS, a utility-first CSS framework for rapidly building custom designs.
@@ -28,9 +29,9 @@ tags:
 description: (description of the post)
 ---
 
-// your markdown content here and you can use html tags as well, 
+// your markdown content here and you can use html tags as well,
 don't forget to add the table of contents
-// by adding "## Table of contents" in the markdown file and it 
+// by adding "## Table of contents" in the markdown file and it
 will automatically generate the table of contents for you
 ```
 
@@ -55,10 +56,11 @@ If you like this theme, you can star/contribute to the [original repo from Astro
 ## List of Contributors
 
 <div style="text-align: left; position: relative; min-height: 120px;">
- <img src="https://boatchrnthn.vercel.app/assets/images/my-photo.png" alt="Your Image Description" style="float: left; width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
+ <img src="https://scontent.fbkk22-7.fna.fbcdn.net/v/t39.30808-1/374647060_2317528468447509_947491909360735166_n.jpg?stp=c0.21.320.320a_dst-jpg_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeHqa5FWh_Flj8KAGhIi45UqyrZ9PJy7VQfKtn08nLtVB6WO7goaj-h3SVjRjuhXIlbofSPeTf9pfWw5-98HqAPl&_nc_ohc=OtTrL56NbdQAX-LfeB_&_nc_ht=scontent.fbkk22-7.fna&oh=00_AfB_sK-v7ttWxKPIX0TYoGfV5XzHCgrv6fmBZxfnfOdAnw&oe=65DF15D4" alt="Your Image Description" style="float: left; width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
  <div style="transform: translateY(0%);">
 
 [Charunthon Limseelo](https://boatchrnthn.vercel.app) - Founder of Be Beyond Code </br>**Microsoft Learn Student Ambassador, KMUTT**
+
  </div>
 </div>
 
@@ -67,6 +69,7 @@ If you like this theme, you can star/contribute to the [original repo from Astro
  <div style="transform: translateY(0%);">
 
 [Sirisa Kornnawawat](https://www.linkedin.com/in/sirisa-kornnawawat-593914231/) - Co-founder of Be Beyond Code </br> **Google Developer Student Club, Vistula University**
+
  </div>
 </div>
 
@@ -75,6 +78,7 @@ If you like this theme, you can star/contribute to the [original repo from Astro
  <div style="transform: translateY(0%);">
 
 [Tinnaphat Somsang](https://tinarskii.com/) - Assistant to Founder of Be Beyond Code </br> **Assumption College Samutprakarn**
+
  </div>
 </div>
 
@@ -83,6 +87,7 @@ If you like this theme, you can star/contribute to the [original repo from Astro
  <div style="transform: translateY(0%);">
 
 [Pongsiri Pisutakarathada](https://www.linkedin.com/in/savepong/) - Tech Contributor</br>**President of Thai Programmer Association**
+
  </div>
 </div>
 
@@ -91,6 +96,7 @@ If you like this theme, you can star/contribute to the [original repo from Astro
  <div style="transform: translateY(0%);">
 
 [Phantip Kokilanon](https://www.linkedin.com/in/phantipk/) - Microsoft Contributor</br>**Community Lead of Spark Tech Thailand, Microsoft Thailand**
+
  </div>
 </div>
 
@@ -99,11 +105,10 @@ If you like this theme, you can star/contribute to the [original repo from Astro
  <div style="transform: translateY(0%);">
 
 [Jirachai Chansivanon](https://www.linkedin.com/in/jirachai-c/) - Microsoft Contributor</br>**Co-Community Lead of Spark Tech Thailand, Microsoft Thailand**
+
  </div>
 </div>
 
 And much more contributors to come!
 
 [Back to the Top](#top)
-
-<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fbebeyondcode.vercel.app%2Fabout&width=100&layout&action&size&share=true&height=35&appId" width="auto" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
