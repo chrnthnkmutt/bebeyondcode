@@ -12,7 +12,7 @@ tags:
   - creatorsgarten
   - Python
   - Go
-description: The coding party with challenging and fun in the same time in 2024.
+description: The coding party with challenging and fun at the same time in 2024.
 ---
 
 ![Untitled](https://boatchrnthn.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf%2F28baddd4-333a-43ee-ac38-b156a2feb145%2FUntitled.png?table=block&id=c6c7fa03-0ec3-4150-9882-26163bdb8f03&spaceId=dc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf&width=2000&userId=&cache=v2)
