@@ -5,7 +5,6 @@ title: The Unforgetable CodeWars 2024 Coding Party
 postSlug: codewars-2024
 featured: true
 draft: false
-ogImage:
 tags:
   - codewars
   - sevenpeakssoftware
