@@ -54,11 +54,11 @@ demo_make_series1
 | render timechart
 ```
 
-- Use the `[make-series](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/make-series-operator.md)` operator to create a set of three time series, where:
-  - `num=count()`:np time series of traffic
-  - `from min_t to max_t step 1h`: time series is created in 1-hour bins in the time range (oldest and newest timestamps of table records)
-  - `default=0`: specify fill method for missing bins to create regular time series. Alternatively use [series_fill_const()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-const-function.md), [series_fill_forward()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-forward-function.md), [series_fill_backward()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-backward-function.md) and [series_fill_linear()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-linear-function.md) for changes
-  - `by OsVer`: partition by OS
+- Use the [make-series](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/make-series-operator.md) operator to create a set of three time series, where:
+- `num=count()`:np time series of traffic
+- `from min_t to max_t step 1h`: time series is created in 1-hour bins in the time range (oldest and newest timestamps of table records)
+- `default=0`: specify fill method for missing bins to create regular time series. Alternatively use [series_fill_const()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-const-function.md), [series_fill_forward()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-forward-function.md), [series_fill_backward()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-backward-function.md) and [series_fill_linear()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-linear-function.md) for changes
+- `by OsVer`: partition by OS
 - The actual time series data structure is a numeric array of the aggregated value per each time bin. We use `render timechart` for visualization.
 
 In the table above, we have three partitions. We can create a separate time series: Windows 10 (red), 7 (blue) and 8.1 (green) for each OS version as seen in the graph:
@@ -74,8 +74,8 @@ In this section, we'll perform typical series processing functions. Once a set o
 Filtering is a common practice in signal processing and useful for time series processing tasks (for example, smooth a noisy signal, change detection).
 
 - There are two generic filtering functions:
-  - [series_fir()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fir-function.md): Applying FIR filter. Used for simple calculation of moving average and differentiation of the time series for change detection.
-  - [series_iir()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-iir-function.md): Applying IIR filter. Used for exponential smoothing and cumulative sum.
+- [series_fir()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fir-function.md): Applying FIR filter. Used for simple calculation of moving average and differentiation of the time series for change detection.
+- [series_iir()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-iir-function.md): Applying IIR filter. Used for exponential smoothing and cumulative sum.
 - `Extend` the time series set by adding a new moving average series of size 5 bins (named *ma_num*) to the query:
 
 ```sql
@@ -97,8 +97,6 @@ Azure Data Explorer supports segmented linear regression analysis to estimate th
 - Use [series_fit_2lines()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fit-2lines-function.md) to detect trend changes, relative to the baseline, that are useful in monitoring scenarios.
 
 Example of `series_fit_line()` and `series_fit_2lines()` functions in a time series query:
-
-> [!div class="nextstepaction"] Run the query
 
 ```sql
 demo_series2
@@ -174,8 +172,6 @@ demo_make_series1
 ## **Time series workflow at scale**
 
 The example below shows how these functions can run at scale on thousands of time series in seconds for anomaly detection. To see a few sample telemetry records of a DB service's read count metric over four days run the following query:
-
-> [!div class="nextstepaction"] Run the query
 
 ```sql
 demo_many_series1
