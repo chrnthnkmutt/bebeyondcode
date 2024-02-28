@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://bebeyondcode.vercel.app/", // replace this with your deployed domain
   author: "Charunthon Limseelo",
   desc: "Less Code, More Tech",
-  title: "Be Beyond Code. 🇹🇭</>",
+  title: "Be Beyond Code </>",
   ogImage: "bebeyondcode-og.webp",
   lightAndDarkMode: true,
   postPerPage: 3,
