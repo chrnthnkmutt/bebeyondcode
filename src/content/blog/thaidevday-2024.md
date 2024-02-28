@@ -14,10 +14,11 @@ tags:
   - flutter
   - microsoft
 description: Recapping the new innovations on coding from Thailand Developer Day 2024 from many tech collaborators.
+ogImage: https://miro.medium.com/v2/resize:fit:828/format:webp/1*stlljmfMJ-0IpnKz2Lr7SQ.png
 canonicalURL: https://medium.com/@boatchrnthn/recapping-thailand-developer-day-2024-267bf4710650
 ---
 
-![Untitled](https://miro.medium.com/v2/resize:fit:828/format:webp/1*lVGPLHcdUe8J4sSv6D-naA.png)
+![Untitled](https://miro.medium.com/v2/resize:fit:828/format:webp/1*stlljmfMJ-0IpnKz2Lr7SQ.png)
 
 Hi developers, welcome to my blog.
 
