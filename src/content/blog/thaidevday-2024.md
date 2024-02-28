@@ -1,5 +1,5 @@
 ---
-author: Charunthon Limseelo and Collaborators
+author: Charunthon Limseelo
 pubDatetime: 2024-02-28T09:36:56Z
 title: Recapping Thailand Developer Day 2024
 postSlug: thaidevday-2024
