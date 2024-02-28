@@ -1,6 +1,6 @@
 ---
 author: Charunthon Limseelo, Phoomparin Mano, Thai Pangsakulyanont
-pubDatetime: 2024-02-24T06:08:56Z
+pubDatetime: 2024-02-27T06:08:56Z
 title: The Unforgetable CodeWars 2024 Coding Party
 postSlug: codewars-2024
 featured: true
@@ -12,6 +12,7 @@ tags:
   - Python
   - Go
 description: The coding party with challenging and fun at the same time in 2024.
+canonicalURL: https://medium.com/@boatchrnthn/the-unforgetable-codewars-2024-coding-party-a0bad44498af
 ---
 
 ![Untitled](https://boatchrnthn.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf%2F28baddd4-333a-43ee-ac38-b156a2feb145%2FUntitled.png?table=block&id=c6c7fa03-0ec3-4150-9882-26163bdb8f03&spaceId=dc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf&width=2000&userId=&cache=v2)
@@ -25,16 +26,6 @@ Some of us may know about the event type like “hackathon” before, it’s jus
 However, I’m not really good at DSA (Data Structure Algorithm) dynamic programming questions much since I really love on Data Science and visualization part right now. 😅 Maybe, I need to have some dynamic coding skills inside my resume sometimes.
 
 ## In the Competing Party…
-
-![Untitled](https://boatchrnthn.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf%2Fd3d2fa00-9d37-4ee2-ac28-2bf7c530e34a%2FUntitled.png?table=block&id=f9b023ff-26e4-4830-a918-d9c8c1b18ee8&spaceId=dc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf&width=2000&userId=&cache=v2)
-
-![Untitled](https://boatchrnthn.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf%2F348f5b07-98f1-4953-a468-198d6300a765%2FUntitled.png?table=block&id=48455a4c-f32c-4c9e-aed4-ed2bcfe31907&spaceId=dc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf&width=2000&userId=&cache=v2)
-
-![Untitled](https://boatchrnthn.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf%2Fb9db5e24-3ab7-4644-a78b-1e8a7324f016%2FUntitled.png?table=block&id=1cec8df3-f88e-4c0c-bd62-bbb395816e54&spaceId=dc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf&width=2000&userId=&cache=v2)
-
-![Untitled](https://boatchrnthn.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf%2Fd7d9fe52-307d-4d48-8817-b514a7347579%2FUntitled.png?table=block&id=9b79e615-af6f-4350-958c-df54b0df47f1&spaceId=dc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf&width=2000&userId=&cache=v2)
-
-![Untitled](https://boatchrnthn.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf%2Fe7f52334-df04-4b82-81ec-1dbfe41d25f5%2FUntitled.png?table=block&id=81db4264-290a-4efd-aace-a74b4a1c6dd0&spaceId=dc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf&width=2000&userId=&cache=v2)
 
 I thought that developers were coming in the stressing mode for competition, but they do enjoy this party very much, like coding and laughing. Also, Seven Peaks and the event organizer provided us free pizza during the competition, which is really delicious so far.
 
