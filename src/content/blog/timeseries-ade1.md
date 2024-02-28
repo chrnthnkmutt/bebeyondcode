@@ -3,18 +3,14 @@ author: Charunthon Limseelo, Sirisa Kornnawawat
 pubDatetime: 2024-02-29T23:08:56Z
 title: Train Your Time Series Data with Azure Data Explorer Part 1
 postSlug: timeseries-ade1
-featured: true
+featured: false
 draft: false
-ogImage: // (image url)
+ogImage: https://boatchrnthn.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf%2Fc1e14aac-f3c2-46e9-b65f-458f79af7e20%2F3.png?table=block&id=e943d1c1-fa94-418c-87cc-1c100636b56c&spaceId=dc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf&width=2000&userId=&cache=v2
 tags:
   - azuredataexplorer
-  - kql
+  - datapredict
   - kusto
   - azure
-  - microsoft
-	- datapredict
-  - timeseries
-  - forecast
 description: This blog will guide you on analyzing the time series dataset on Azure Data Explorer
 ---
 
@@ -59,9 +55,9 @@ demo_make_series1
 ```
 
 - Use the `[make-series](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/make-series-operator.md)` operator to create a set of three time series, where:
-  - `num=count()`: time series of traffic
+  - `num=count()`:np time series of traffic
   - `from min_t to max_t step 1h`: time series is created in 1-hour bins in the time range (oldest and newest timestamps of table records)
-  - `default=0`: specify fill method for missing bins to create regular time series. Alternatively use `[series_fill_const()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-const-function.md)`, `[series_fill_forward()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-forward-function.md)`, `[series_fill_backward()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-backward-function.md)` and `[series_fill_linear()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-linear-function.md)` for changes
+  - `default=0`: specify fill method for missing bins to create regular time series. Alternatively use [series_fill_const()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-const-function.md), [series_fill_forward()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-forward-function.md), [series_fill_backward()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-backward-function.md) and [series_fill_linear()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fill-linear-function.md) for changes
   - `by OsVer`: partition by OS
 - The actual time series data structure is a numeric array of the aggregated value per each time bin. We use `render timechart` for visualization.
 
@@ -78,8 +74,8 @@ In this section, we'll perform typical series processing functions. Once a set o
 Filtering is a common practice in signal processing and useful for time series processing tasks (for example, smooth a noisy signal, change detection).
 
 - There are two generic filtering functions:
-  - `[series_fir()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fir-function.md)`: Applying FIR filter. Used for simple calculation of moving average and differentiation of the time series for change detection.
-  - `[series_iir()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-iir-function.md)`: Applying IIR filter. Used for exponential smoothing and cumulative sum.
+  - [series_fir()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-fir-function.md): Applying FIR filter. Used for simple calculation of moving average and differentiation of the time series for change detection.
+  - [series_iir()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-iir-function.md): Applying IIR filter. Used for exponential smoothing and cumulative sum.
 - `Extend` the time series set by adding a new moving average series of size 5 bins (named *ma_num*) to the query:
 
 ```sql

@@ -3,18 +3,14 @@ author: Charunthon Limseelo, Sirisa Kornnawawat
 pubDatetime: 2024-02-29T23:08:56Z
 title: Train Your Time Series Data with Azure Data Explorer Part 2
 postSlug: timeseries-ade2
-featured: true
+featured: false
 draft: false
-ogImage: // (image url)
+ogImage: https://boatchrnthn.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf%2Fc1e14aac-f3c2-46e9-b65f-458f79af7e20%2F3.png?table=block&id=e943d1c1-fa94-418c-87cc-1c100636b56c&spaceId=dc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf&width=2000&userId=&cache=v2
 tags:
   - azuredataexplorer
-  - kql
+  - datapredict
   - kusto
   - azure
-  - microsoft
-	- datapredict
-  - timeseries
-  - forecast
 description: This blog will guide you on forecasting the time series dataset on Azure Data Explorer
 ---
 
@@ -36,7 +32,7 @@ This article details time series anomaly detection and forecasting capabilities 
 
 ## **Time series decomposition model**
 
-The KQL native implementation for time series prediction and anomaly detection uses a well-known decomposition model. This model is applied to time series of metrics expected to manifest periodic and trend behavior, such as service traffic, component heartbeats, and IoT periodic measurements to forecast future metric values and detect anomalous ones. The assumption of this regression process is that other than the previously known seasonal and trend behavior, the time series is randomly distributed. You can then forecast future metric values from the seasonal and trend components, collectively named baseline, and ignore the residual part. You can also detect anomalous values based on outlier analysis using only the residual portion. To create a decomposition model, use the function `[series_decompose()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-decompose-function.md)`. The `series_decompose()` function takes a set of time series and automatically decomposes each time series to its seasonal, trend, residual, and baseline components.
+The KQL native implementation for time series prediction and anomaly detection uses a well-known decomposition model. This model is applied to time series of metrics expected to manifest periodic and trend behavior, such as service traffic, component heartbeats, and IoT periodic measurements to forecast future metric values and detect anomalous ones. The assumption of this regression process is that other than the previously known seasonal and trend behavior, the time series is randomly distributed. You can then forecast future metric values from the seasonal and trend components, collectively named baseline, and ignore the residual part. You can also detect anomalous values based on outlier analysis using only the residual portion. To create a decomposition model, use the function [series_decompose()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-decompose-function.md). The `series_decompose()` function takes a set of time series and automatically decomposes each time series to its seasonal, trend, residual, and baseline components.
 
 For example, you can decompose traffic of an internal web service by using the following query:
 
@@ -61,7 +57,7 @@ demo_make_series2
 
 ## **Time series anomaly detection**
 
-The function `[series_decompose_anomalies()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-decompose-anomalies-function.md)` finds anomalous points on a set of time series. This function calls `series_decompose()` to build the decomposition model and then runs `[series_outliers()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-outliers-function.md)` on the residual component. `series_outliers()` calculates anomaly scores for each point of the residual component using Tukey's fence test. Anomaly scores above 1.5 or below -1.5 indicate a mild anomaly rise or decline respectively. Anomaly scores above 3.0 or below -3.0 indicate a strong anomaly.
+The function [series_decompose_anomalies()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-decompose-anomalies-function.md) finds anomalous points on a set of time series. This function calls `series_decompose()` to build the decomposition model and then runs [series_outliers()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-outliers-function.md) on the residual component. `series_outliers()` calculates anomaly scores for each point of the residual component using Tukey's fence test. Anomaly scores above 1.5 or below -1.5 indicate a mild anomaly rise or decline respectively. Anomaly scores above 3.0 or below -3.0 indicate a strong anomaly.
 
 The following query allows you to detect anomalies in internal web service traffic:
 
@@ -84,7 +80,7 @@ demo_make_series2
 
 ## **Time series forecasting**
 
-The function `[series_decompose_forecast()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-decompose-forecast-function.md)` predicts future values of a set of time series. This function calls `series_decompose()` to build the decomposition model and then, for each time series, extrapolates the baseline component into the future.
+The function [series_decompose_forecast()](https://github.com/MicrosoftDocs/dataexplorer-docs/blob/main/data-explorer/kusto/query/series-decompose-forecast-function.md) predicts future values of a set of time series. This function calls `series_decompose()` to build the decomposition model and then, for each time series, extrapolates the baseline component into the future.
 
 The following query allows you to predict next week's web service traffic:
 
