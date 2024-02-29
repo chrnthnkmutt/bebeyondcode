@@ -17,7 +17,7 @@ description: This blog will guide you on forecasting the time series dataset on 
 ![3.png](https://boatchrnthn.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf%2Fc1e14aac-f3c2-46e9-b65f-458f79af7e20%2F3.png?table=block&id=e943d1c1-fa94-418c-87cc-1c100636b56c&spaceId=dc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf&width=2000&userId=&cache=v2)
 
 - This web blog is exclusive only for Be Beyond Code website, Notion Site, and attendees of Global AI Bootcamp 2024 event. No reposting on Medium.
-- Additionally, this is Part 2 : Anomaly and Forecasting,. If you want to proceed to Part 1: Time Series Analysis, please proceed by this link : [Click Here](https://bebeyondcode.vercel.app/posts/timeseries-ade1)
+- Additionally, this is Part 2 : Anomaly and Forecasting,. If you want to proceed to Part 1: Time Series Analysis, please proceed by this link : [Click Here](https://bebeyondcode.vercel.app/posts/timeseries-adx1)
 
 Cloud services and IoT devices generate telemetry data that can be used to gain insights such as monitoring service health, physical production processes, and usage trends. Performing time series analysis is one way to identify deviations in the pattern of these metrics compared to their typical baseline pattern.
 
