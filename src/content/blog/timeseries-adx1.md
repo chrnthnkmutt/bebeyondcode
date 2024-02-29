@@ -2,7 +2,7 @@
 author: Charunthon Limseelo, Sirisa Kornnawawat
 pubDatetime: 2024-02-29T23:08:56Z
 title: Train Your Time Series Data with Azure Data Explorer Part 1
-postSlug: timeseries-ade1
+postSlug: timeseries-adx1
 featured: false
 draft: false
 ogImage: https://boatchrnthn.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf%2Fc1e14aac-f3c2-46e9-b65f-458f79af7e20%2F3.png?table=block&id=e943d1c1-fa94-418c-87cc-1c100636b56c&spaceId=dc9f3c9a-ac9d-4d06-b551-6ddd8dfd0ebf&width=2000&userId=&cache=v2
