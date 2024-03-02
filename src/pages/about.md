@@ -56,7 +56,7 @@ If you like this theme, you can star/contribute to the [original repo from Astro
 ## List of Contributors
 
 <div style="text-align: left; position: relative; min-height: 120px;">
- <img src="https://miro.medium.com/v2/resize:fit:2400/1*YbkpVjCY3u-jW1Fx_0od2A.png" alt="Your Image Description" style="float: left; width: 90px; height: 90px; border-radius: 50%; margin-right: 20px;">
+ <img src="https://miro.medium.com/v2/resize:fill:176:176/1*YbkpVjCY3u-jW1Fx_0od2A.png" alt="Your Image Description" style="float: left; width: 90px; height: 90px; border-radius: 50%; margin-right: 20px;">
  <div style="transform: translateY(0%);">
 
 [Charunthon Limseelo](https://boatchrnthn.vercel.app) - Founder of Be Beyond Code </br>**Microsoft Learn Student Ambassador, KMUTT**
