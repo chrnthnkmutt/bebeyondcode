@@ -56,19 +56,10 @@ If you like this theme, you can star/contribute to the [original repo from Astro
 ## List of Contributors
 
 <div style="text-align: left; position: relative; min-height: 120px;">
- <img src="https://miro.medium.com/v2/resize:fill:176:176/1*YbkpVjCY3u-jW1Fx_0od2A.png" alt="Your Image Description" style="float: left; width: 90px; height: 90px; border-radius: 50%; margin-right: 20px;">
+ <img src="https://yt3.googleusercontent.com/ytc/APkrFKbAZ5TSx-gnu4tR2cdgSDoTc-MEyyOTzRIBDo06xyY=s500-c-k-c0x00ffffff-no-rj" alt="Your Image Description" style="float: left; width: 90px; height: 90px; border-radius: 50%; margin-right: 20px;">
  <div style="transform: translateY(0%);">
 
 [Charunthon Limseelo](https://boatchrnthn.vercel.app) - Founder of Be Beyond Code </br>**Microsoft Learn Student Ambassador, KMUTT**
-
- </div>
-</div>
-
-<div style="text-align: left; position: relative; min-height: 120px;">
- <img src="https://scontent.fbkk22-4.fna.fbcdn.net/v/t1.6435-9/117777235_981095785651723_179791315469117962_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeGI-sHaqHWICRX1xoHNO9Y-_B3zvN4Pvwj8HfO83g-_CKVrgJ3hOG6FWpvxugki4zpzb06GNWdWQ0Y3IBhV19hu&_nc_ohc=OgSV949qx9QAX-EMfSO&_nc_ht=scontent.fbkk22-4.fna&oh=00_AfBu3uaU4KiAbZPNcj-CCDx9TZc-jJRtaVsBBRj_7Kf5mQ&oe=6600D6DC" alt="Your Image Description" style="float: left; width: 90px; height: 90px; border-radius: 50%; margin-right: 20px;">
- <div style="transform: translateY(0%);">
-
-[Sirisa Kornnawawat](https://www.linkedin.com/in/sirisa-kornnawawat-593914231/) - Co-founder of Be Beyond Code </br> **Google Developer Student Club, Vistula University**
 
  </div>
 </div>
@@ -96,15 +87,6 @@ If you like this theme, you can star/contribute to the [original repo from Astro
  <div style="transform: translateY(0%);">
 
 [Phantip Kokilanon](https://www.linkedin.com/in/phantipk/) - Microsoft Contributor</br>**Community Lead of Spark Tech Thailand, Microsoft Thailand**
-
- </div>
-</div>
-
-<div style="text-align: left; position: relative; min-height: 120px;">
- <img src="https://media.licdn.com/dms/image/C5603AQGfX1D_IKLg3g/profile-displayphoto-shrink_800_800/0/1634462079923?e=2147483647&v=beta&t=zmVDaYyrGSlTZjmzVvD1XV3wIYMFKkAwB-aItmyR89Y" alt="Your Image Description" style="float: left; width: 90px; height: 90px; border-radius: 50%; margin-right: 20px;">
- <div style="transform: translateY(0%);">
-
-[Jirachai Chansivanon](https://www.linkedin.com/in/jirachai-c/) - Microsoft Contributor</br>**Co-Community Lead of Spark Tech Thailand, Microsoft Thailand**
 
  </div>
 </div>
