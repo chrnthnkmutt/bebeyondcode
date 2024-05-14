@@ -3,7 +3,7 @@ author: Charunthon Limseelo, Phoomparin Mano, Thai Pangsakulyanont
 pubDatetime: 2024-02-27T06:08:56Z
 title: The Unforgetable CodeWars 2024 Coding Party
 postSlug: codewars-2024
-featured: true
+featured: false
 draft: false
 tags:
   - codewars
