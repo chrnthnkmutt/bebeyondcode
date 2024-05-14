@@ -9,7 +9,8 @@ tags:
   - openai
   - ai
   - gpt4
-  - gpt4turbo
+  - gpt4o
+  - gpt4omni
 description: We got the huge impact from GPT-4o and many capabilities those we totally expected from it.
 ---
 
@@ -73,6 +74,6 @@ You can visit here for more information of the tools: [Click Here](https://opena
 
 Normally, I could see all of this technology before, and it's work with Microsoft Copilot and Google's Gemini in the latest update, you can do everything like upload the image, summarize PDFs, being a search engine. However, within a better intelligence of the model and faster performace (including visualize the graph illustrations - not in preview yet), OpenAI's ChatGPT with GPT-4o might perform better than other commercial LLM/GPT models.
 
-So far, there are the limit of usage of GPT-4o if you are a free user. So, why don't you shut your mouth up, Sam, and don't you dare take my money! (because it's too expensive though 😭)
+So far, there are the limit of usage of GPT-4o if you are a free user. So, why don't you shut your mouth up, Sam, and take my money 💸🥲🙏
 
-> The question is...Are Microsoft and OpenAI still a partnership? or they are going to have a full-time handshake with Apple?
+Some of the functions I didn't mention above, please look forward through their demonstration: [YouTube Playlist](https://www.youtube.com/playlist?list=PLOXw6I10VTv8VOvPNVQ8c4D4NyMRMotXh)
