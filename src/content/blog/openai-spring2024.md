@@ -65,7 +65,7 @@ For both free and paid users, they also announcing a new ChatGPT desktop app for
 
 Additionally, you can have voice conversation with ChatGPT directly from your computer, starting with Voice Mode that has been available in ChatGPT at launch, with GPT-4o’s new audio and video capabilities coming in the future. Although, they have a plan to launch a Windows version later within 2024.
 
-You can visit here for more information of the tools: (Click Here)[https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/]
+You can visit here for more information of the tools: [Click Here](https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/)
 
 ## In conclusion,
 
